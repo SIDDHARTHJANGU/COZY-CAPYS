@@ -211,10 +211,10 @@ p {
   z-index: 1;
 }
 .blue {
-  top: 0;
+  top: -2px;
 }
 .pink {
-  top: 0;
+  top: -2px;
 }
 .cloud {
   bottom: -12%;
@@ -313,6 +313,18 @@ p {
   width: 100%;
   right: 0;
 }
+.icon:hover svg path {
+  fill: #1da1f2 !important;
+}
+.icon_1:hover svg path {
+  fill: #bc2a8d !important;
+}
+.icon_2:hover svg path {
+  fill: blue !important;
+}
+.accordion {
+  width: 80% !important;
+}
 @media (max-width: 992px) {
   .mobile_view {
     position: fixed;
@@ -375,13 +387,6 @@ p {
     top: -7%;
     left: 0;
   }
-  .pink-bear {
-    right: 3%;
-    bottom: -9% !important;
-    z-index: 50;
-    transform: rotate(-6deg);
-    width: 24%;
-  }
 }
 @media (min-width: 768px) {
   .mt_50 {
@@ -417,13 +422,7 @@ p {
     top: -6%;
     left: 0;
   }
-  .pink-bear {
-    right: 3%;
-    bottom: -13% !important;
-    z-index: 50;
-    transform: rotate(-6deg);
-    width: 18%;
-  }
+
   .tree-2 {
     left: 0;
     bottom: -30%;
@@ -482,6 +481,13 @@ p {
     left: 6%;
     width: 26%;
   }
+  .pink-bear {
+    right: 3%;
+    bottom: -16% !important;
+    z-index: 50;
+    transform: rotate(-6deg);
+    width: 16%;
+  }
 }
 @media (min-width: 1368px) {
   .green-1 {
@@ -494,18 +500,18 @@ p {
   }
   .pink-bear {
     right: 3%;
-    bottom: -19% !important;
+    bottom: -21% !important;
     z-index: 50;
     transform: rotate(-6deg);
     width: 15%;
   }
   .tree-2 {
     left: 0;
-    bottom: -30%;
+    bottom: -27%;
     width: 13%;
   }
   .sleep {
-    top: 11%;
+    top: 13%;
     left: 12%;
     width: 26%;
   }
@@ -531,6 +537,13 @@ p {
   }
   .mt-5 {
     margin-top: 3rem !important;
+  }
+  .pink-bear {
+    right: 3%;
+    bottom: -23% !important;
+    z-index: 50;
+    transform: rotate(-6deg);
+    width: 15%;
   }
 }
 @media (min-width: 1600px) {
@@ -561,9 +574,14 @@ p {
     left: 19%;
     width: 22%;
   }
+  .tree-2 {
+    left: 0;
+    bottom: -40%;
+    width: 13%;
+  }
   .pink-bear {
     right: 3%;
-    bottom: -27% !important;
+    bottom: -30% !important;
     z-index: 50;
     transform: rotate(-6deg);
     width: 15%;
