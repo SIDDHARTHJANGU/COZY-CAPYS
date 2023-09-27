@@ -7,10 +7,10 @@
   --fs-cmn: 32px;
   --fs-md: 28px;
   --fs-sm: 14px;
-  --fs-xsm: 14px;
+  --fs-xsm: 13px;
   --fs-1xsm: 18px;
   --fs-1sm: 14px;
-  --fs-2sm: 14px;
+  --fs-2sm: 13px;
   /* font-weight  */
   --fw-regular: 400;
   --fw-bold: 700;
@@ -131,7 +131,7 @@
     --fs-lg: 43px;
     --fs-cmn: 32px;
     --fs-md: 28px;
-    --fs-sm: 22px;
+    --fs-sm: 20px;
     --fs-xsm: 20px;
     --fs-1xsm: 18px;
     --fs-1sm: 16px;

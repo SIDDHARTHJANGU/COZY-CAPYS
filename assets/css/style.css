@@ -228,7 +228,7 @@ p {
 }
 .pink-bear {
   right: 3%;
-  bottom: -6% !important;
+  bottom: -4% !important;
   z-index: 50;
   transform: rotate(-6deg);
   width: 25%;
@@ -563,7 +563,7 @@ p {
   }
   .pink-bear {
     right: 3%;
-    bottom: -25% !important;
+    bottom: -27% !important;
     z-index: 50;
     transform: rotate(-6deg);
     width: 15%;
